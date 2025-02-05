@@ -20,19 +20,19 @@ Processing DNS response... <br>
 -------------------------------------------------------------------------------- <br>
                              DNS Response's Values: <br>                             
 Header: <br>
-\t	header.ID = /<number/> <br>
-\t	header.QR = /<number/> <br>
-\t	header.OPCODE = /<number/> <br>
-\t	header.AA = /<number/> <br>
-\t	header.TC = /<number/> <br>
-\t	header.RD = /<number/> <br>
-\t	header.RA = /<number/> <br>
-\t	header.Z = /<number/> <br>
-\t	header.RCODE = /<number/> <br>
-\t	header.QDCOUNT = /<number/> <br>
-\t	header.ANCOUNT = /<number/> <br>
-\t	header.NSCOUNT = /<number/> <br>
-\t	header.ARCOUNT = /<number/> <br>
+<pre>	header.ID = \<number\> <pre><br>
+/t	header.QR = \<number\> <br>
+\t	header.OPCODE = \<number\> <br>
+\t	header.AA = \<number\> <br>
+\t	header.TC = \<number\> <br>
+\t	header.RD = \<number\> <br>
+\t	header.RA = \<number\> <br>
+\t	header.Z = \<number\> <br>
+\t	header.RCODE = \<number\> <br>
+\t	header.QDCOUNT = \<number\> <br>
+\t	header.ANCOUNT = \<number\> <br>
+\t	header.NSCOUNT = \<number\> <br>
+\t	header.ARCOUNT = \<number\> <br>
  <br>
 Questions: <br>
 \t	Question /<number/>: <br>
