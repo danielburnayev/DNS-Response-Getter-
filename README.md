@@ -35,21 +35,21 @@ Header: <br>
 * header.ARCOUNT = \<number\> <br>
  <br>
 Questions: <br>
-\t	Question \<number\>: <br>
-\t\t		question.QNAME = \<string\> <br>
-\t\t		question.QTYPE = \<number\> <br>
-\t\t		question.QCLASS = \<number\> <br>
-\t \<possibly-more-questions\> <br>
+* Question \<number\>: <br>
+  * question.QNAME = \<string\> <br>
+  * question.QTYPE = \<number\> <br>
+  * question.QCLASS = \<number\> <br>
+\<possibly-more-questions\> <br>
  <br>
 Answers: <br>
-\t	Answer \<number\>: <br>
-\t\t		answer.NAME = \<string\> <br>
-\t\t		answer.TYPE = \<number\> <br>
-\t\t		answer.CLASS = \<number\> <br>
-\t\t		answer.TTL = \<number\> <br>
-\t\t		answer.RDLENGTH = \<number\> <br>
-\t\t		answer.RDATA = \<ip-address\> <br>
-\t \<possibly-more-answers\> <br> <br>
+* Answer \<number\>: <br>
+  * answer.NAME = \<string\> <br>
+  * answer.TYPE = \<number\> <br>
+  * answer.CLASS = \<number\> <br>
+  * answer.TTL = \<number\> <br>
+  * answer.RDLENGTH = \<number\> <br>
+  * answer.RDATA = \<ip-address\> <br>
+\<possibly-more-answers\> <br> <br>
 
 Authoritative: <br> <br>
 
