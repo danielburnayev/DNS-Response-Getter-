@@ -33,27 +33,27 @@ Header: <br>
 	header.ANCOUNT = /<number/> <br>
 	header.NSCOUNT = /<number/> <br>
 	header.ARCOUNT = /<number/> <br>
+ <br>
+Questions: <br>
+	Question /<number/>: <br>
+		question.QNAME = /<string/> <br>
+		question.QTYPE = /<number/> <br>
+		question.QCLASS = /<number/> <br>
+  /<possibly-more-questions/> <br>
+ <br>
+Answers: <br>
+	Answer /<number/>: <br>
+		answer.NAME = /<string/> <br>
+		answer.TYPE = /<number/> <br>
+		answer.CLASS = /<number/> <br>
+		answer.TTL = /<number/> <br>
+		answer.RDLENGTH = /<number/> <br>
+		answer.RDATA = /<ip-address/> <br>
+  /<possibly-more-answers/> <br> <br>
 
-Questions:
-	Question /<number/>:
-		question.QNAME = /<string/>
-		question.QTYPE = /<number/>
-		question.QCLASS = /<number/>
-  /<possibly-more-questions/>
+Authoritative: <br> <br>
 
-Answers:
-	Answer /<number/>:
-		answer.NAME = /<string/>
-		answer.TYPE = /<number/>
-		answer.CLASS = /<number/>
-		answer.TTL = /<number/>
-		answer.RDLENGTH = /<number/>
-		answer.RDATA = /<ip-address/>
-  /<possibly-more-answers/>
-
-Authoritative:
-
-Additional:
+Additional: <br> <br>
 
 --------------------------------------------------------------------------------
 
