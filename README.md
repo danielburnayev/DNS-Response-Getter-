@@ -6,16 +6,16 @@ To compile my-dns-client.c to run/test it, type the following out in your cmd: <
 gcc my-dns-client.c -o my-dns-client
 
 TO run/test the executable that comes from compiling my-dns-client.c, type the following in your cmd: <br>
-./my-dns-client /<hostname-of-your-choice/>
+./my-dns-client \<hostname-of-your-choice\>
 
 ## Result Format
-Output from /<hostname-of-your-choice/>: <br>
+Output from \<hostname-of-your-choice\>: <br>
 
 Preparing DNS query... <br>
 Contacting DNS query... <br>
 Sending DNS query... <br>
 DNS response received! (Attempt 1 out of 3)  <br>
-/<possibly more attempts are tried/> <br>
+\<possibly more attempts are tried\> <br>
 Processing DNS response... <br>
 -------------------------------------------------------------------------------- <br>
                              DNS Response's Values: <br>                             
@@ -35,21 +35,21 @@ Header: <br>
 \t	header.ARCOUNT = \<number\> <br>
  <br>
 Questions: <br>
-\t	Question /<number/>: <br>
-\t\t		question.QNAME = /<string/> <br>
-\t\t		question.QTYPE = /<number/> <br>
-\t\t		question.QCLASS = /<number/> <br>
-\t /<possibly-more-questions/> <br>
+\t	Question \<number\>: <br>
+\t\t		question.QNAME = \<string\> <br>
+\t\t		question.QTYPE = \<number\> <br>
+\t\t		question.QCLASS = \<number\> <br>
+\t \<possibly-more-questions\> <br>
  <br>
 Answers: <br>
-\t	Answer /<number/>: <br>
-\t\t		answer.NAME = /<string/> <br>
-\t\t		answer.TYPE = /<number/> <br>
-\t\t		answer.CLASS = /<number/> <br>
-\t\t		answer.TTL = /<number/> <br>
-\t\t		answer.RDLENGTH = /<number/> <br>
-\t\t		answer.RDATA = /<ip-address/> <br>
-\t /<possibly-more-answers/> <br> <br>
+\t	Answer \<number\>: <br>
+\t\t		answer.NAME = \<string\> <br>
+\t\t		answer.TYPE = \<number\> <br>
+\t\t		answer.CLASS = \<number\> <br>
+\t\t		answer.TTL = \<number\> <br>
+\t\t		answer.RDLENGTH = \<number\> <br>
+\t\t		answer.RDATA = \<ip-address\> <br>
+\t \<possibly-more-answers\> <br> <br>
 
 Authoritative: <br> <br>
 
