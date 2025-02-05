@@ -20,36 +20,36 @@ Processing DNS response... <br>
 -------------------------------------------------------------------------------- <br>
                              DNS Response's Values: <br>                             
 Header: <br>
-	header.ID = /<number/> <br>
-	header.QR = /<number/> <br>
-	header.OPCODE = /<number/> <br>
-	header.AA = /<number/> <br>
-	header.TC = /<number/> <br>
-	header.RD = /<number/> <br>
-	header.RA = /<number/> <br>
-	header.Z = /<number/> <br>
-	header.RCODE = /<number/> <br>
-	header.QDCOUNT = /<number/> <br>
-	header.ANCOUNT = /<number/> <br>
-	header.NSCOUNT = /<number/> <br>
-	header.ARCOUNT = /<number/> <br>
+\t	header.ID = /<number/> <br>
+\t	header.QR = /<number/> <br>
+\t	header.OPCODE = /<number/> <br>
+\t	header.AA = /<number/> <br>
+\t	header.TC = /<number/> <br>
+\t	header.RD = /<number/> <br>
+\t	header.RA = /<number/> <br>
+\t	header.Z = /<number/> <br>
+\t	header.RCODE = /<number/> <br>
+\t	header.QDCOUNT = /<number/> <br>
+\t	header.ANCOUNT = /<number/> <br>
+\t	header.NSCOUNT = /<number/> <br>
+\t	header.ARCOUNT = /<number/> <br>
  <br>
 Questions: <br>
-	Question /<number/>: <br>
-		question.QNAME = /<string/> <br>
-		question.QTYPE = /<number/> <br>
-		question.QCLASS = /<number/> <br>
-  /<possibly-more-questions/> <br>
+\t	Question /<number/>: <br>
+\t\t		question.QNAME = /<string/> <br>
+\t\t		question.QTYPE = /<number/> <br>
+\t\t		question.QCLASS = /<number/> <br>
+\t /<possibly-more-questions/> <br>
  <br>
 Answers: <br>
-	Answer /<number/>: <br>
-		answer.NAME = /<string/> <br>
-		answer.TYPE = /<number/> <br>
-		answer.CLASS = /<number/> <br>
-		answer.TTL = /<number/> <br>
-		answer.RDLENGTH = /<number/> <br>
-		answer.RDATA = /<ip-address/> <br>
-  /<possibly-more-answers/> <br> <br>
+\t	Answer /<number/>: <br>
+\t\t		answer.NAME = /<string/> <br>
+\t\t		answer.TYPE = /<number/> <br>
+\t\t		answer.CLASS = /<number/> <br>
+\t\t		answer.TTL = /<number/> <br>
+\t\t		answer.RDLENGTH = /<number/> <br>
+\t\t		answer.RDATA = /<ip-address/> <br>
+\t /<possibly-more-answers/> <br> <br>
 
 Authoritative: <br> <br>
 
