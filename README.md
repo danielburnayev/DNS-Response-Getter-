@@ -20,7 +20,7 @@ Processing DNS response... <br>
 -------------------------------------------------------------------------------- <br>
                              DNS Response's Values: <br>                             
 Header: <br>
-<pre>	header.ID = \<number\> <pre><br>
+/t header.ID = \<number\> <br>
 /t	header.QR = \<number\> <br>
 \t	header.OPCODE = \<number\> <br>
 \t	header.AA = \<number\> <br>
