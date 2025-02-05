@@ -33,14 +33,14 @@ Header: <br>
 * header.ANCOUNT = \<number\> <br>
 * header.NSCOUNT = \<number\> <br>
 * header.ARCOUNT = \<number\> <br>
- <br>
+
 Questions: <br>
 * Question \<number\>: <br>
   * question.QNAME = \<string\> <br>
   * question.QTYPE = \<number\> <br>
   * question.QCLASS = \<number\> <br>
 \<possibly-more-questions\> <br>
- <br>
+
 Answers: <br>
 * Answer \<number\>: <br>
   * answer.NAME = \<string\> <br>
